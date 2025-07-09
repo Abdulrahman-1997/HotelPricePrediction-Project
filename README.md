@@ -21,4 +21,4 @@ Target: `adr` (renamed to `price`)
 | HistGradientBoostingReg.   | 0.854       | 0.676      |
 
 ## How to run
-Use `hotel_price_model.ipynb` in Google Colab or Jupyter Notebook.
+Use `hotel_price_model.ipynb` in Google Colab.
