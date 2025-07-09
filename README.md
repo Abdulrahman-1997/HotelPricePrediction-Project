@@ -15,10 +15,14 @@ Target: `adr` (renamed to `price`)
 - Model performance evaluated using R²
 
 ## Results
-| Model                      | Train Score | Test Score |
-|---------------------------|-------------|------------|
-| Linear Regression          | 0.656       | 0.513      |
-| HistGradientBoostingReg.   | 0.854       | 0.676      |
+## 🔍 Model Performance Summary
+
+| Model                  | Train R² | Test R² | MAE   | RMSE  |
+|------------------------|----------|---------|-------|--------|
+| Linear Regression       | 0.657    | 0.514   | 20.95 | 37.68  |
+| HistGradientBoosting    | 0.856    | 0.677   | 12.80 | 30.71  |
+
+Gradient boosting clearly outperforms linear regression, indicating the presence of nonlinear relationships and interactions between features that a simple linear model can't capture.
 
 ## How to run
 Use `hotel_price_model.ipynb` in Google Colab.
